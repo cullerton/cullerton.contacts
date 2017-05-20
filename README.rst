@@ -10,11 +10,11 @@ It is developed for a class curriculum, and is not intended for real deployment,
 Install
 -------
 
-You can install contacts with pip.
+You can install contacts using setup.py.
 
 ::
 
-    $ pip3 install cullerton.contacts
+    $ python setup.py install
 
 -----
 Usage
@@ -24,5 +24,5 @@ You can run the contact manager by calling it as a Python 3 module.
 
 ::
 
-    $ python3 -m cullerton.contacts
+    $ python -m cullerton.contacts
 
